@@ -1,3 +1,17 @@
 svg {
-    background-color: #ccc;
+    border: 2px dashed #ccc;
+    padding: 3px;
+}
+
+text {
+    filter: drop-shadow(4px 4px rgba(0, 0, 0, .3));
+}
+
+.text1,
+.text2 {
+    animation: 5s 1s infinite alternate-reverse;
+}
+
+.text2 {
+    animation-delay: 2s;
 }
